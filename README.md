@@ -17,6 +17,12 @@ Converter for png
 ### Требования
 - Python 3.x
 - OpenCV библиотека (cv2)
+
+Инициализация и активация виртуального окружения:
+```bash
+python -m venv myenv
+.\myenv\Scripts\activate.bat
+```
   
 Установка OpenCV из requirements.txt:
 ```bash
