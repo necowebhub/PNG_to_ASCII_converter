@@ -22,7 +22,8 @@ Converter for png
 ```bash
 python -m venv myenv
 ```
-Активация виртуального окружения
+
+Активация виртуального окружения:
 ```bash
 .\myenv\Scripts\activate.bat
 ```
