@@ -18,9 +18,12 @@ Converter for png
 - Python 3.x
 - OpenCV библиотека (cv2)
 
-Инициализация и активация виртуального окружения:
+Инициализация виртуального окружения:
 ```bash
 python -m venv myenv
+```
+Активация виртуального окружения
+```bash
 .\myenv\Scripts\activate.bat
 ```
   
