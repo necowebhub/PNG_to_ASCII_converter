@@ -9,7 +9,7 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Инвертируем цвета изображения
 inverted_gray_image = cv2.bitwise_not(gray_image)
 
-with open("output/ASCII_Art.txt", "w") as file:
+with open("output/ASCII_Art_inverted.txt", "w") as file:
     for x in range(0, width - 1, 8):
         s = ""
         for y in range(0, height - 1, 4):
@@ -20,3 +20,4 @@ with open("output/ASCII_Art.txt", "w") as file:
                 pass
         if len(s) != 0:
             file.write(s + "\n")
+
